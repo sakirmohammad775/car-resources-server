@@ -58,7 +58,7 @@ async function run() {
 
     const serviceCollection = client.db('carServer').collection('services')
     const bookingCollection = client.db('carServer').collection('bookings')
-    console.log(bookingCollection)
+    
 
     //auth related api
     app.post('/jwt',async(req,res)=>{
